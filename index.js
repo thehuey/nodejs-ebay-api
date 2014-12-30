@@ -205,7 +205,7 @@ var defaultParams = function defaultParams(options) {
   return {
     'FindingService': {
       'X-EBAY-SOA-SECURITY-APPNAME': options.appId ? options.appId : null,
-      'X-EBAY-SOA-REQUEST-DATA-FORMAT': 'JSON',
+      //'X-EBAY-SOA-REQUEST-DATA-FORMAT': 'NV',
       'X-EBAY-SOA-RESPONSE-DATA-FORMAT': 'JSON',
       'X-EBAY-SOA-GLOBAL-ID': options.globalId ? options.globalId : 'EBAY-US',
       'X-EBAY-SOA-SERVICE-VERSION': options.version ? options.version : '1.11.0',
